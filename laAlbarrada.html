@@ -25,10 +25,51 @@
 	<body>
 		<!-- Encabezado -->
 		<header class="">
-
+			
+			<!-- End Navbar -->
 			<div class="home-box__header justify-content-center">
-				<div class="container home-box__content pt-100 pb-150">
-					<div class="color-white logo_header" data-aos="fade-down" data-aos-delay="750">
+				<!-- Start Navbar -->
+			<nav class="navbar navbar-expand-lg navbar-light container">
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				  <ul class="navbar-nav mr-auto">
+					<li class="nav-item dropdown">
+					  <a class="nav-link dropdown-toggle text-light font-weight-bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Talleres
+					  </a>
+					  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item text-light font-weight-bold" href="#agricultura">Agricola</a>
+						<a class="dropdown-item text-light font-weight-bold" href="#servicios">Servicios</a>
+						<a class="dropdown-item text-light font-weight-bold" href="#tecnica">Técnica</a>
+						<a class="dropdown-item text-light font-weight-bold" href="#artesanal">Artesanal</a>
+						<a class="dropdown-item text-light font-weight-bold" href="#notrad">No tradicionales</a>
+					  </div>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link text-light font-weight-bold" href="#">Derechos</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link text-light font-weight-bold" href="#">Salikal</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link text-light font-weight-bold" href="#">La Mercadita</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link text-light font-weight-bold" href="#">Humedal</a>
+					</li>
+				  </ul>
+				</div>
+			  </nav>
+			  <!-- End -->
+				<div class="container home-box__content pt-20">
+					<div class="color-white logo_header_2 d-flex justify-content-center" data-aos="fade-down" data-aos-delay="750">
+						<img src="microkit/i/logo_albarrada.svg" alt="">
+
+					</div>
+				</div>
+			</div>
+			<div class="home-box__header justify-content-center">
+				<div class="container home-box__content pt-50 pb-50">
+					<div class="color-white logo_header d-flex justify-content-center" data-aos="fade-down" data-aos-delay="750">
 						<img src="microkit/i/escudo_blanco_seigen.svg" alt="">
 
 					</div>
@@ -64,7 +105,7 @@
 			<!-- Start Area Agriola -->
 			<div class="main-banner section-background">
 				<div class="container my-auto">
-					<h2 class="f-10 color-dorado semibold sp-20" data-aos="fade-down" data-aos-delay="0">
+					<h2 class="f-10 color-dorado semibold sp-20" data-aos="fade-down" data-aos-delay="0" id="agricultura">
 						Talleres
 					</h2>
 					<h3 class="color-morado mt-15" data-aos="fade-down" data-aos-delay="250">
@@ -144,7 +185,7 @@
 			<!-- Start Area Servicios -->
 			<div class="main-banner section-background">
 				<div class="container mt-100">
-					<h2 class="f-10 color-dorado semibold sp-20" data-aos="fade-down" data-aos-delay="0">
+					<h2 class="f-10 color-dorado semibold sp-20" data-aos="fade-down" data-aos-delay="0" id="servicios">
 						Talleres
 					</h2>
 					<h3 class="color-morado mt-15" data-aos="fade-down" data-aos-delay="250">
@@ -198,7 +239,7 @@
 			<!-- Start Area Tecnica -->
 			<div class="main-banner section-background">
 				<div class="container mt-100">
-					<h2 class="f-10 color-dorado semibold sp-20" data-aos="fade-down" data-aos-delay="0">
+					<h2 class="f-10 color-dorado semibold sp-20" data-aos="fade-down" data-aos-delay="0" id="tecnica">
 						Talleres
 					</h2>
 					<h3 class="color-morado mt-15" data-aos="fade-down" data-aos-delay="250">
@@ -301,7 +342,7 @@
 			<!-- Start Area Artesanal -->
 			<div class="main-banner section-background">
 				<div class="container mt-100">
-					<h2 class="f-10 color-dorado semibold sp-20" data-aos="fade-down" data-aos-delay="0">
+					<h2 class="f-10 color-dorado semibold sp-20" data-aos="fade-down" data-aos-delay="0" id="artesanal">
 						Talleres
 					</h2>
 					<h3 class="color-morado mt-15" data-aos="fade-down" data-aos-delay="250">
@@ -344,7 +385,7 @@
 		<section id="secporqueocurre" class="pt-0 pb-200 bg-light content_1">
 			<div class="main-banner section-background">
 				<div class="container mt-100">
-					<h3 class="color-morado mt-15" data-aos="fade-down" data-aos-delay="250">
+					<h3 class="color-morado mt-15" data-aos="fade-down" data-aos-delay="250" id="notrad">
 						Talleres en Oficios no Tradicionales, con Perspectiva de Género y Derechos Humanos
 					</h3>
 
@@ -705,5 +746,7 @@
 		<script src="microkit/js/jquery.maskedinput.min.js"></script>
 		<!-- Startup JS (Custom js for all blocks) -->
 		<script src="microkit/js/script.js"></script>
+		<!-- PopperJS -->
+		<script src="microkit/js/popper.min.js"></script>
 	</body>
 </html>

@@ -13229,13 +13229,10 @@ a.float-right {
 .justify-content-center {
   justify-content: center;
 }
-.logo_header {
-  max-width: 40%;
+.logo_header img{
+  max-width: 30%;
   /* ******Modificado La Albarrada****** */
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
+  height: auto;
 }
 .proyecto-box {
   background-color: rgba(255,255,255,0.9);
