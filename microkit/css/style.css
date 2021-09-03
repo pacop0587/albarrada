@@ -851,6 +851,10 @@ b, strong {
   border-radius: 10px;
 }
 
+.menu-button-1{
+  border: none;
+}
+
 /* Section */
 
 .section-taller {
